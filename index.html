@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echarts JS</title>
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .echarts-item {
+      margin: 25px auto 100px auto;
+    }
+  </style>
+  <script src="./echarts/data.js"></script>
+  <script src="https://cdn.bootcss.com/echarts/4.7.0/echarts.js"></script>
+</head>
+<body>
+  <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+  <div id="bar" class="echarts-item" style="width: 600px;height:400px;"></div>
+  <div id="line" class="echarts-item" style="width: 600px;height:400px;"></div>
+  <div id="pie" class="echarts-item" style="width: 600px;height:400px;"></div>
+  <script src="./echarts/bar.js"></script>
+  <script src="./echarts/line.js"></script>
+  <script src="./echarts/pie.js"></script>
+</body>
+</html>
